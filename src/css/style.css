@@ -1,41 +1,23 @@
-@import url('https://cdnjs.cnet.work/libs/overpass-webfont/overpass.min.css');
-@import url('https://cdnjs.cnet.work/libs/hack-font/3.3.0/hack.css');
-@import url('https://cdnjs.cnet.work/libs/league/gothic/web/stylesheet.css');
-@import url('https://cdnjs.cnet.work/libs/league/spartan/web/stylesheet.css');
-@import url('https://cdnjs.cnet.work/libs/junction/web/junction.css');
+@import url('https://font.my.id/libs/league/mono/web/stylesheet.css');
 
-html {
-    font-size: 14px;
+html,
+body {
+  height: 100%;
 }
-.kartu {
-    margin-bottom: 40px;
-}
-footer {
-    padding: 20px 0;
-}
-code {
-    color: #343a40; 
-    background-color: #f8f9fa; 
-    padding: 10px 20px; 
-    margin-bottom: 5px;
-    display: block; 
-    user-select: all; 
-    -moz-user-select: all;
-    -ms-user-select: all;
-    -webkit-user-select: all;
-}
-.card-subtitle {
-    text-transform: uppercase;
-}
-.jumbotron {
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-}
-.overpass {font-family: 'Overpass', sans-serif;}
-code, .hack {font-family: 'Hack', sans-serif;}
-.lgothic {font-family: 'League Gothic', sans-serif;}
-.lgothic-cond {font-family: 'League Gothic Condensed', sans-serif; }
-.lspartan {font-family: 'League Spartan', sans-serif;}
-.junction {font-family: 'Junction', sans-serif;}
 
-.lgothic, .lgothic-cond, .lspartan, .junction {font-size: 250%;}
-.overpass, .hack, .lgothic, .lgothic-cond, .lspartan, .junction {line-height:1.2em;}
+body {
+    font-family: 'League Mono';
+    display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(to right bottom, #845ec2, #7a59ac, #6f5596, #655081, #5a4b6d, #5d506c, #60566c, #635b6b, #756d7e, #898091, #9c94a5, #b0a8b9);
+}
+
+.form-signin {
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+}
